@@ -1,0 +1,85 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@nivo/bar": "^0.62.0",
+    "@nivo/bullet": "^0.62.0",
+    "@nivo/core": "^0.62.0",
+    "@nivo/line": "^0.62.0",
+    "@nivo/pie": "^0.62.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/date-fns": "^2.6.0",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-dropzone": "^5.1.0",
+    "@types/react-icons": "^3.0.0",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/styled-components": "^5.1.1",
+    "@types/yup": "^0.29.3",
+    "@unform/core": "^2.1.3",
+    "@unform/web": "^2.1.3",
+    "axios": "^0.19.2",
+    "chart.js": "^3.3.2",
+    "date-fns": "^2.21.1",
+    "filesize": "^6.1.0",
+    "material-table": "^1.69.3",
+    "polished": "^3.6.5",
+    "react": "^16.13.1",
+    "react-chartjs-2": "^3.0.3",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.3",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
+    "recharts": "^2.0.9",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "styled-components": "^5.1.1",
+    "typescript": "^3.8.0",
+    "uuidv4": "^6.2.0",
+    "yup": "^0.29.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.0",
+    "prettier": "^2.0.5"
+  }
+}
